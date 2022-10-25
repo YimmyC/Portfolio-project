@@ -1,0 +1,44 @@
+/* Wire Frame */
+
+header, main, footer { 
+    border: 1px solid navy;
+}
+
+section, h2, p, ul {
+    border: 1px solid navy;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+}
+
+
+header, main, footer {
+    padding: 1rem;
+}
+
+header, footer {
+    background-color: rgb(99, 99, 133);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
