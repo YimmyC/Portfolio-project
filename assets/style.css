@@ -1,10 +1,10 @@
 /* Wire Frame */
 
-/* header, main, footer {   
+header, main, footer {   
     border: 1px solid navy;
 } 
 
-section, h2, p, ul { 
+/* section, h2, p, ul {  
     border: 1px solid navy;
 } */
 
@@ -69,10 +69,11 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 }
 
-@media screen and (max-width: 375px) {
+ @media screen and (max-width: 375px) { 
     h1 {
        padding-left: 0;
     } 
