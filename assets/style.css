@@ -16,11 +16,9 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
     font-family: Montserrat;
+    height: 100vh;
 }
-
 
 header, main, footer {
     padding: 1rem;
@@ -30,7 +28,7 @@ header, footer {
     background-color: rgb(99, 99, 133);
 }
 
-header, footer {
+header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -46,6 +44,13 @@ main {
    flex-grow: 1; 
 }
 
+.mt- {
+    margin-top: 0.75rem;
+}
+.pt {
+    padding-top: 1.5rem;
+}
+
 
 @font-face {
     font-family: Montserrat;
@@ -56,5 +61,6 @@ main {
     header {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
