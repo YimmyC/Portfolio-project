@@ -8,6 +8,17 @@ header, main, footer {
     border: 1px solid navy;
 } */
 
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -62,6 +73,9 @@ h1 {
     display: flex;
     align-items: center;
     padding-left: 10rem;
+    font-family: Greatvibes;
+    font-size: 45px;
+    text-shadow: 6px 5px 0 #d7d7d7;
 }
 
 h2 {
@@ -141,9 +155,20 @@ section {
 	transform: scale(1,1);
 }
 
+.btn-three:active {
+    background-color: #7209B7;
+    border: 1px solid black;
+    transition: all 0.3s;
+}
+
 @font-face {
     font-family: Montserrat;
     src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Greatvibes;
+    src: url(./Great_Vibes/GreatVibes-Regular.ttf);
 }
 
 @media screen and (max-width: 375px) {
