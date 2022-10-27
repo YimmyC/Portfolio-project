@@ -43,8 +43,8 @@ nav {
 }
 
 main {
-    padding-left: inherit;
-    padding-right: inherit;
+    padding-left: 15rem;
+    padding-right: 15rem;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -155,7 +155,7 @@ section {
  } 
 }
 
-@media screen and (max-width: 1090px) {
+/* @media screen and (max-width: 1090px) {
     
    main {
         padding: 1rem;
@@ -167,4 +167,4 @@ section {
    h1 {
     padding-left: 0;
  } 
-}
+} */
