@@ -42,8 +42,7 @@ header, footer {
 }
 
 header {
-    background-image: url(./melting\ keys.png);
-    background-repeat: no-repeat;
+    background-image: url(./pexels-life-of-pix-8892.jpg);
     background-size: cover;
     background-position: 0rem -6rem;
     display: flex;
@@ -123,7 +122,7 @@ section {
 }
 
 .cr {
-    border-color: #212529;
+    border-color: #7209B7;
     border-style: solid;
     border-radius: 50%;
 }
